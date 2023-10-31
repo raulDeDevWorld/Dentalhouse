@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#0090A8" />
         <meta name="msapplication-navbutton-color" content="#0090A8" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#0090A8" />
-        <meta name="description" content="Escuela de Teakwondo" />
+        <meta name="description" content="Servicios Odotologicos" />
         <meta name="keywords" content="Dental House" />
         <meta name="author" content="Dental House" />
         <title>Dental House</title>
