@@ -27,7 +27,7 @@ export default function Navbar({ children }) {
     
     return (
         <nav className="w-screen fixed top-0 z-10 ">
-            <div className="max-w-screen flex flex-wrap items-center justify-between bg-[#9EC011] border-b-[10px] border-[#cfcfcf] mx-auto p-4 z-[1000]">
+            <div className="max-w-screen flex flex-wrap items-center justify-between bg-[#0090A8] border-b-[10px] border-[#cfcfcf] mx-auto p-4 z-[1000]">
                 <a className="flex items-center text-white">
                     <img src="/logo.png" className="h-8 mr-3" alt="Flowbite Logo" /><span className='text-[12px]'> DENTAL <br /> HOUSE</span>
                 </a>
@@ -37,7 +37,7 @@ export default function Navbar({ children }) {
                 </button>
             </div>
             {<div className={`absolute top-[70px] w-1/2  transition-all z-0 ${nav ? 'right-0' : 'right-[-550px]'} lg:w-auto lg:right-[35px] lg:top-[0px] lg:flex lg:h-[60px]`} >
-                <ul className="h-[250px] lg:h-auto flex flex-col justify-around bg-[#9EC011] font-bold p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:flex-row lg:items-center">
+                <ul className="h-[250px] lg:h-auto flex flex-col justify-around bg-[#0090A8] font-bold p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:flex-row lg:items-center">
                     <li>
                         <a href="#" className={` lg:block py-2 pl-3 pr-4 text-white font-bold rounded lg:bg-transparent lg:p-0 ${active === undefined && 'text-black' }`} onClick={()=>pathnameHandler(undefined)}>Inicio</a>
                     </li>
