@@ -65,8 +65,8 @@ function Home() {
           <h1 className='w-full hidden  lg:block text-center text-[12px] lg:text-[16px]'>{userDB.frontPage['direccion']} </h1>
           <br />
           <div>
-            <h1 className='w-full text-center text-[24px] lg:text-[30px]'><span className='text-[#0090A8] font-bold'>{userDB.frontPage['nombre']}</span><span className='text-[#002663] font-bold	'>{userDB.frontPage['apellidos']}</span></h1>
-            <h1 className='w-full text-center text-[24px] lg:text-[30px]'><span className='text-[#0090A8] font-bold'>{userDB.frontPage['especialidad 1']} </span><span className='text-[#002663] font-bold	'>{userDB.frontPage['especialidad 2']}</span></h1>
+            <h1 className='w-full text-center text-[24px] lg:text-[30px]'><span className='text-[#0090A8] font-bold'>{userDB.frontPage['nombre']}</span><span className='text-[#9EC011] font-bold	'>{userDB.frontPage['apellidos']}</span></h1>
+            <h1 className='w-full text-center text-[24px] lg:text-[30px]'><span className='text-[#0090A8] font-bold'>{userDB.frontPage['especialidad 1']} </span><span className='text-[#9EC011] font-bold	'>{userDB.frontPage['especialidad 2']}</span></h1>
           </div>
           <br />
           {/* <div className='w-full flex justify-around' >
@@ -102,7 +102,7 @@ function Home() {
                   <CardH image={i['url']} service={i['titulo de servicio']} description={i['descripcion de servicio']} remote={i['servicio remoto']} cost={i['costo']} time={i['tiempo de entrega']} whatsapp={i['whatsapp de servicio']} i={i} index={index}></CardH>
                   <div className="inline-flex items-center justify-center w-full">
                     <hr className="w-64 h-px my-8 bg-[#0090A8] border-0 dark:bg-gray-700" />
-                    <span className="absolute px-3 font-medium text-[#002663] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900 z-0">•</span>
+                    <span className="absolute px-3 font-medium text-[#9EC011] -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900 z-0">•</span>
                   </div>
                 </div>
               )
@@ -180,7 +180,7 @@ function Home() {
         </div>
       </div>
 
-      <footer className="w-screen bg-[#002663] text-center text-white mt-[70px] z-20" id="Contactos">
+      <footer className="w-screen bg-[#9EC011] text-center text-white mt-[70px] z-20" id="Contactos">
         <div className="p-4">
           <h3 className={`w-full text-white text-left font-bold text-[26px] pl-[5px]`}>Contactos</h3>
           <br />
