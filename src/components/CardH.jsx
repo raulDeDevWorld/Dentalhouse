@@ -16,7 +16,7 @@ export default function CardH({ image, service, description, remote, cost, time,
     }
 
     function handlerEditData() {
-        setUserModal('Productos')
+        setUserModal('Servicios')
         setUserItem(i)
     }
 

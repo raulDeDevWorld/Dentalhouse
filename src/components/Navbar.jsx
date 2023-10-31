@@ -42,7 +42,7 @@ export default function Navbar({ children }) {
                         <a href="#" className={` lg:block py-2 pl-3 pr-4 text-white font-bold rounded lg:bg-transparent lg:p-0 ${active === undefined && 'text-black' }`} onClick={()=>pathnameHandler(undefined)}>Inicio</a>
                     </li>
                     <li>
-                        <a href="#Productos" className={` lg:block py-2 pl-3 pr-4 text-white font-bold  rounded  lg:hover:bg-transparent lg:p-0  ${active === 'Productos' && 'text-black' }`} onClick={()=>pathnameHandler('Productos')}>Productos</a>
+                        <a href="#Servicios" className={` lg:block py-2 pl-3 pr-4 text-white font-bold  rounded  lg:hover:bg-transparent lg:p-0  ${active === 'Servicios' && 'text-black' }`} onClick={()=>pathnameHandler('Servicios')}>Servicios</a>
                     </li>
                     <li>
                         <a href="#Testimonios" className={` lg:block py-2 pl-3 pr-4 text-white font-bold  rounded  lg:hover:bg-transparent lg:p-0  ${active === 'Testimonios' && 'text-black' }`} onClick={()=>pathnameHandler('Testimonios')}>Testimonios</a>

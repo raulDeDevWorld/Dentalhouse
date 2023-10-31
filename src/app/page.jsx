@@ -82,13 +82,13 @@ function Home() {
           
           */}
           <div className='w-full  lg:grid lg:grid-cols-2 lg:gap-5 '>
-            <a href="#Productos" className='w-full'><Button theme="Secondary" >Productos</Button></a>
+            <a href="#Servicios" className='w-full'><Button theme="Secondary" >Servicios</Button></a>
             <Link href={`https://api.whatsapp.com/send?phone=${userDB.frontPage['whatsapp']}&text=Hola%Dental%20House,%20quisiera%20hacer%20una%20consulta...%20`} className='w-full'><Button theme="Primary" >Contactar</Button></Link>
           </div>
         </div>
       </section>
 
-      <section className='w-full pt-[70px]' id="Productos">
+      <section className='w-full pt-[70px]' id="Servicios">
         <Subtitle>Servicios</Subtitle>
         <div className='min-h-screen w-full flex flex-col justify-between items-center lg:flex-row justify-around items-center '>
           <ul className='min-w-[80%] grid grid-cols-1 gap-4'>
