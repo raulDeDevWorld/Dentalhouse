@@ -47,10 +47,12 @@ function Home() {
   return (
     userDB && <main className="flex min-h-screen w-full flex-col items-center justify-between ">
       {userDB && <Modal theme={modal} i={item} />}
-
-      <section className='relative h-screen w-full lg:pt-0 pb-0 flex flex-col justify-between items-center lg:grid lg:grid-cols-2 items-center bg-blue-500 pt-[82px] lg:pt-[78px]'>
-        <div className='w-screen h-[45vh] flex justify-center items-end lg:w-[50vw] bg-red-500   lg:h-full' style={{ backgroundImage: `url(${userDB.frontPage['url']})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+      <section className='min-h-screen  w-full lg:pt-10 pb-0 flex flex-col justify-center  lg:flex-row items-center '>
+        <div className='w-screen h-[40vh] flex justify-center items-end lg:w-[50vw] lg:h-[100vh]' style={{ backgroundImage: `url(${userDB.frontPage['url']})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
         </div>
+      {/* <section className='relative h-screen w-full lg:pt-0 pb-0 flex flex-col justify-between items-center lg:grid lg:grid-cols-2 items-center bg-blue-500 pt-[82px] lg:pt-[78px]'>
+        <div className='w-screen h-[45vh] flex justify-center items-end lg:w-[50vw] bg-red-500   lg:h-full' style={{ backgroundImage: `url(${userDB.frontPage['url']})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+        </div> */}
         {/* <div className='inline-block relative w-screen h-[45vh]  lg:w-[50vw] bg-red-500 lg:h-full bg-yellow-500'>
             <img src={userDB.frontPage['url']} className='inline-block relative w-full h-[90vh]' alt="" />
         </div> */}
@@ -157,7 +159,7 @@ function Home() {
         <div className='absolute top-0 left-0  w-full h-[50px] bg-[#00826A] rounded-t-[10px]'>
           <img src="/logo.png" className='absolute h-[35px] w-[35px] left-[5px] top-[7.5px]  rounded-[35px]' alt="" />
           <div className='absolute flex flex-col left-[50px] top-[12px] text-white text-[12px]'>
-            <span className='block text-[10px] m-0'>Koguryo Kwan</span>
+            <span className='block text-[10px] m-0'>Dental House</span>
             <span className='text-[8px] m-0'>en linea</span>
           </div>
           <span className='absolute  right-[10px] top-[12px] px-[7.5px] py-[3px]  border-[1px] text-white text-[12px] rounded-[5px]' onClick={whatsappHandler} >X</span>
